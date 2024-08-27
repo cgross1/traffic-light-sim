@@ -64,13 +64,13 @@ public class TrafficGUI extends JFrame implements ActionListener{
 	JTextField car3SpeedField = new JTextField("10", 3);
 	JTextField light1GreenField = new JTextField("3", 3);
 	JTextField light1YellowField = new JTextField("3", 3);
-	JTextField light1RedField = new JTextField("40", 3);
-	JTextField light2GreenField = new JTextField("3", 3);
-	JTextField light2YellowField = new JTextField("3", 3);
+	JTextField light1RedField = new JTextField("25", 3);
+	JTextField light2GreenField = new JTextField("5", 3);
+	JTextField light2YellowField = new JTextField("9", 3);
 	JTextField light2RedField = new JTextField("40", 3);
-	JTextField light3GreenField = new JTextField("3", 3);
-	JTextField light3YellowField = new JTextField("3", 3);
-	JTextField light3RedField = new JTextField("40", 3);
+	JTextField light3GreenField = new JTextField("8", 3);
+	JTextField light3YellowField = new JTextField("5", 3);
+	JTextField light3RedField = new JTextField("10", 3);
 	
 	JCheckBox car2CheckBox = new JCheckBox();
 	JCheckBox car3CheckBox = new JCheckBox();
@@ -280,13 +280,7 @@ public class TrafficGUI extends JFrame implements ActionListener{
 			updatedMainPanel.setPreferredSize(new Dimension(1000,50));
 			updatedMainPanel.add(pauseButton);
 			updatedMainPanel.add(clockField);
-			/*  old panel 
-			mainPanel.removeAll();
-			mainPanel.setBackground(Color.pink);
-			mainPanel.add(pauseButton);
-			mainPanel.add(clockField);
-			*/
-			//mainPanel
+
 			
 			synchronized(clockThread) {
 				clockThread.start();
