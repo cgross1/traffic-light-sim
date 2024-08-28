@@ -17,6 +17,15 @@ A multi-threaded car and traffic light simulator built with Java Swing. This pro
 - Adjust their behavior using the controls
 - Pause and resume the simulation at any time
 
+## Class Diagram
+![class diagram](traffic-class-diagram.jpg)
+
+## Simulation Settings
+![traffic sim settings](traffic-sim-settings.jpg)
+
+## Running Simulator
+![traffic sim running](traffic-class-running.jpg)
+
 ## Contributing
 Feel free to fork this repository and submit pull requests.
 
