@@ -1,17 +1,25 @@
 # Traffic Light Simulator
-Car and traffic light simulator using Java Swing. 
 
-Multi-threaded application using event handlers and listeners exhibiting Java's concurrency functionality. 
+A multi-threaded car and traffic light simulator built with Java Swing. This project demonstrates Java concurrency, event handling, and GUI programming.
 
-_User Guide:_
+## Features
+- Simulate up to 3 cars and traffic lights
+- Adjustable car speed and traffic light cycles
+- Pause/resume functionality
 
-Use checkboxes to choose between 1, 2, or 3 cars. Each car's speed can be adjusted.
-Use checkboxes to use 1, 2, or 3 traffic lights. Each traffic light cycle can be adjusted for time in seconds it is green, yellow, and red. 
+## Installation
+1. Clone this repository
+2. Open the project in a Java-compatible IDE
+3. Compile and run `TrafficGUI.java`
 
-Each should stop at the traffic light when red and resume to its running speed when yellow or green.
-Cars will travel in the opposite direction after reaching the edge of the window. Cars stop at intersections as normal in the opposite direction.
+## Usage
+- Select the number of cars and traffic lights
+- Adjust their behavior using the controls
+- Pause and resume the simulation at any time
 
-User can pause and resume the simulation.
+## Contributing
+Feel free to fork this repository and submit pull requests.
+
 
 
 
