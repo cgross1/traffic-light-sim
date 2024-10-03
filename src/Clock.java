@@ -1,10 +1,6 @@
 
 /*
- * UMGC
- * CMSC 335 / 7381 (2238)
- * Project 3
  * Christopher Gross
- * Dec 12, 2023
  * 
  * Clock class creates timer to run during simulation
  */

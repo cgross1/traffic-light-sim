@@ -1,10 +1,6 @@
 											
 /*
- * UMGC
- * CMSC 335 / 7381 (2238)
- * Project 3
  * Christopher Gross
- * Dec 12, 2023
  * 
  * TrafficGUI class creates GUI and generates simulation based on user inputs
  */

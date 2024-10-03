@@ -1,10 +1,6 @@
 
 /*
- * UMGC
- * CMSC 335 / 7381 (2238)
- * Project 3
  * Christopher Gross
- * Dec 12, 2023
  * 
  * Creates stop lights. cycles through different states based on user inputs and pause button
  */
